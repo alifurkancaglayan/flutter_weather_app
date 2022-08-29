@@ -31,7 +31,7 @@ class Weather {
       this.location});
 }
 
-String apiId = "36c4d6f8be693572ecdebf0989b4a6c3";
+String apiId = "";
 
 Future<List> fetchData(String lat, String lon, String city) async {
   var url =
